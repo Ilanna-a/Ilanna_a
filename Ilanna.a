@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Formulário</h1>
+
+<form action="/action_page.php">
+  <label for="nome"><p1>Nome:</p1></label><br>
+  <input type="text" id="nome" name="nome"><br><br>
+  <label for="Sobrenome"><p2>Sobrenome:</p2></label><br>
+  <input type="text" id="Sobrenome" name="Sobrenome"><br><br>
+  <label for="Data de Nascimento"><p3>Data de Nascimento:</p3></label><br>
+  <input type="text" id="Data de Nascimento" name="Data de Nascimento"><br><br>
+   <label for="Rua"><p4>Rua:</p4></label><br>
+  <input type="text" id="Rua" name="Rua"><br><br>
+  <label for="Número"><p5>Número:</p5></label><br>
+  <input type="text" id="Número" name="Número"><br><br>
+  <label for="Bairro"><p6>Bairro:</p6></label><br>
+  <input type="text" id="Bairro" name="Bairro"><br><br>
+   <label for="CEP"><p7>CEP:</p7></label><br>
+  <input type="text" id="CEP" name="CEP"><br><br>
+  <label for="Município"><p8>Município:</p8></label><br>
+  <input type="text" id="Município" name="Município"><br><br>
+   <label for="Estado"><p9>Estado:</p9></label><br>
+  <input type="text" id="Estado" name="Estado"><br><br>
+   <label for="Observações"><p10>Observações:</p10></label><br>
+  <input type="text" id="Observações" name="Observações"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<style>
+html {
+  
+ background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "calibri";
+    font-size: 16px;
+    line-height: 1,5;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 2em 2em 4em;
+
+
+}
+
+body {
+  color: black;
+  text-align: center;
+    
+
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10
+
+    font-family:calibri;
+  font-size: 20px;
+}
+    h1{
+        color: #222;
+    font-weight: 900;
+    line-height: 2;
+    font-size: px;
+
+        
+    }
+</style>
+</head>
+<body
+
+</body>
+</html>
